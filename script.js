@@ -111,7 +111,7 @@ function rpsFrontEnd(humanImageChoice, botImageChoice, finalMessage) {
 }
 
 //-- ............................................................................................................................... -->
-//Challenge 4 :
+//Challenge 4 :Challenge 3: Rock,Paper,Scissors
 
 document.getElementById('myButton').onclick=function() {
   let x = Math.random();
@@ -121,7 +121,7 @@ document.getElementById('myButton').onclick=function() {
   if (x== document.getElementById('answer').value) {
     alert('answer is correct');
   } else {
-      alert('answer is wrong');
+      alert('answer is wrong! my number was '+x);
   }
 
 }
