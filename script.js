@@ -111,7 +111,8 @@ function rpsFrontEnd(humanImageChoice, botImageChoice, finalMessage) {
 }
 
 //-- ............................................................................................................................... -->
-//Challenge 4 :Challenge 3: Rock,Paper,Scissors
+//Challenge 4 :How many fingers am I holding up?
+
 
 document.getElementById('myButton').onclick=function() {
   let x = Math.random();
