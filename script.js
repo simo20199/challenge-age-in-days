@@ -5,7 +5,7 @@ function ageInDays() {
   const birthYear = prompt('What year were you born My friend?');
   const myageInDays = (2019-birthYear) * 365;
   const h1 = document.createElement('h1');
-  const textAnswer = document.createTextNode('You are ' + myageInDays + ' days old')
+  const textAnswer = document.createTextNode('Your are  ' + myageInDays + ' days old')
   h1.setAttribute('id', 'ageInDays');
   h1.appendChild(textAnswer);
   document.getElementById('flex-box-result').appendChild(h1);
@@ -109,3 +109,20 @@ function rpsFrontEnd(humanImageChoice, botImageChoice, finalMessage) {
   document.getElementById('felx-box-rps-div').appendChild(botDiv);
 
 }
+
+//-- ............................................................................................................................... -->
+//Challenge 4 :
+
+document.getElementById('myButton').onclick=function() {
+  let x = Math.random();
+  x= x*6;
+  x = Math.floor(x);
+
+  if (x== document.getElementById('answer').value) {
+    alert('answer is correct');
+  } else {
+      alert('answer is wrong');
+  }
+
+}
+
